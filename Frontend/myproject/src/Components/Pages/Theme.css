@@ -1,0 +1,54 @@
+.theme{
+    padding: 10px;
+    text-align: center;
+    padding-left: 10px;
+  }
+  
+  .event-images-event {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+  
+  
+  
+  .event-images-event img {
+    width: 30%;
+    border-radius: 8px;
+    height: 70%;
+  }
+  
+  .event-details {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-details h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .event-details1 h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .event-details p {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  /* Style for image containers */
+.image-container {
+    text-align: center; /* Center align image and text */
+    margin-bottom: 20px; /* Add some space between image containers */
+  }
+  
+  /* Style for event names */
+  .image-container p {
+    font-size: 16px; /* Set font size for event names */
+    margin-top: 5px; /* Add some space between image and event name */
+    font-weight: bold; /* Make event names bold */
+  }

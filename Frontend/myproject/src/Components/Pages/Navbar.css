@@ -1,0 +1,42 @@
+nav {
+    background-color:lightcoral;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    height: 50%;
+  }
+  
+  nav ul li {
+    float: right;
+    font-size: 130%;
+    
+  }
+  .logo{
+    float: left;
+    width: 15%;
+    font-size:xx-large;
+    color: rgb(244, 240, 240);
+     
+  }
+  
+  nav ul li a {
+    display: block;
+    color:rgb(251, 249, 249);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:x-large;
+  }
+  
+  nav ul li a:hover {
+   
+    color:aliceblue;
+  }

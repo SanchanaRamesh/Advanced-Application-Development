@@ -1,0 +1,143 @@
+/* styles.css */
+
+/* Reset some default browser styles */
+body, h1, h2, p, button {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  
+}
+
+/* Navigation styles */
+
+
+/* Landing page styles */
+.landing-page {
+  background-image: url('https://images.pexels.com/photos/3611882/pexels-photo-3611882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.header-content {
+  text-align: center;
+  padding-top: 100px;
+  color: #111111;
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  
+}
+
+header h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  text-shadow: 8px 8px 8px rgb(248, 246, 246);
+
+}
+
+header p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 12px 24px;
+  background-color: #ff6b6b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #ff4545;
+}
+
+main {
+  padding: 50px;
+  text-align: center;
+}
+
+.event-images {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.event-images img {
+  width: 30%;
+  border-radius: 8px;
+}
+
+.event-details {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event-details h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.event-details p {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.video-class
+{
+ position: absolute;
+ left:34%;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* Footer.css */
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.footer-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links li a:hover {
+  text-decoration: underline;
+}
