@@ -1,0 +1,22 @@
+.event-details {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .event-details h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .text {
+    margin-bottom: 15px;
+    font-size: 28px;
+   color: rgba(0, 0, 0, 0.5);
+  }
+.learn{
+    background-color: lightcoral;
+
+  }

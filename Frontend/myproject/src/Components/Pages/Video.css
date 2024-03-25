@@ -1,0 +1,54 @@
+#video{
+    position: relative;
+    width:100vw;
+    height: 50%;
+}
+.video-section {
+    position: relative;
+  }
+  
+  #video {
+    width: 100%;
+    height: auto;
+  }
+  
+  .text-overlay {
+    
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(11, 11, 11);
+
+    padding-top: 100px;
+    color: #111111;
+    position: absolute;
+    top: 50%;
+    left: 48%;
+  }
+  
+  .text-overlay h1 {
+    font-size: 65px;
+    margin-bottom: 20px;
+    text-shadow: 8px 8px 8px rgb(248, 246, 246);
+    font-weight: bolder;
+  }
+  
+  .text-overlay h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-shadow: 8px 8px 8px rgb(248, 246, 246);
+    font-weight: bold;
+  }
+  
+  .text-overlay .btn {
+  padding: 12px 24px;
+  background-color: #ff6b6b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  }
+  
+  .text-overlay .btn:hover {
+    background-color: #ccc;
+  }
